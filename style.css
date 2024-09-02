@@ -1,0 +1,130 @@
+body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: center;
+            padding: 20px;
+            background-color: #ffe;
+            margin: 0;
+        }
+
+        h2 {
+            color: #fff;
+            background-color: #111;
+            border: 2px solid #577;
+            border-radius: 12px;
+            margin: 8px 0;
+            font-size: 34px;
+            padding: 10px;
+        }
+
+        #buttons {
+            margin-bottom: 20px;
+        }
+
+        button {
+            color: #fff;
+            background-color: #007bff;
+            border: 2px solid #0056b3;
+            margin: 5px;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        button:active {
+            transform: scale(0.98);
+        }
+
+       
+  .game {
+        width: 100%;
+        background-color: #f0f0f0;
+        padding: 15px;
+        margin-bottom: 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .team-container {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .team {
+        flex: 1;
+        padding: 15px;
+        border-radius: 8px;
+        text-align: center;
+        color: #fff;
+        font-weight: bold;
+        font-size: 10px;
+        margin: 0 5px;
+        word-wrap: break-word; /* السماح للكلمات بالالتفاف */
+        white-space: pre-wrap; /* منع الكلمات من التمدد خارج العنصر */
+        min-width: 120px; /* ضمان عرض أدنى للفريق */
+        box-sizing: border-box; /* ضمان عدم تجاوز الحدود */
+    }
+
+    .team.home {
+        background-color: #ff0000;
+    }
+
+    .team.away {
+        background-color: #0000ff;
+    }
+
+    .vs {
+        font-weight: bold;
+        font-size: 20px;
+        color: #333;
+        margin: 0 10px;
+    }
+
+    .game p {
+        flex-basis: 100%;
+        margin: 10px 0;
+        background: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 14px;
+        color: #333;
+    }
+
+
+        #scrollBtn {
+            Box-shadow :-3px 3px 16px 4px #11f;
+            width :60px;
+            Height :85px;
+            
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #11e;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 100% 100% 0px 0px;
+            display: none;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        #scrollBtn:hover {
+            background-color: #e11;
+        }
+
+        #scrollBtn:active {
+            transform: scale(0.98);
+        }
+    
